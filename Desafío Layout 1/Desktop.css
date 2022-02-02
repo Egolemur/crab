@@ -1,0 +1,19 @@
+body {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;    
+    top: 0%;   
+    background-image: url(./diseño-de-fondo-patrones-forma-orgánicos-líneas-división-conexión-vector-194749082.jpg);    
+}
+
+.etiqueta {
+    position: absolute;         
+    left: 5rem;
+    top: -.5rem;
+    color: white;
+    background-color: rgb(184, 32, 12);
+    border-radius: .6rem;
+    padding: .3rem .3rem;
+    font-size: 1rem;
+    display: inline;    
+}

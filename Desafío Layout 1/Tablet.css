@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.6rem;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.body-header {
+    width: 100%;
+    background-color: rgba(27, 26, 26, 0.918);
+    padding: .5rem 2rem;      
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.header-nav {                   
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-nav__item {            
+    margin-bottom: .5rem;        
+    color: white;        
+    /* padding: .5rem .5rem; */
+    text-decoration: none;   
+    cursor: pointer;    
+}
+
+.non-ready {    
+    display: flex;
+    margin-top: 0;
+    align-items: center;    
+    position: relative;
+}
+
+.etiqueta {
+    position: absolute;         
+    left: 5rem;
+    top: -.5rem;
+    color: white;
+    background-color: rgb(184, 32, 12);
+    border-radius: .6rem;
+    padding: .3rem .3rem;
+    font-size: 1rem;
+    display: inline;    
+}
+
+.header-nav__item, .etiqueta {
+    margin-bottom: 1rem;
+}
+
+.header-nav__item:hover {
+    color: yellow;
+}
+
+.body-header__figure {
+    display: inline;  
+}
+
+.body-header__figure-img {            
+    width: 15rem;  
+    margin-bottom: 1rem;  
+}
+
+.body-main {
+    display: flex;  
+}
+
+.body-main__aside {
+    background-color: darkgray;         
+    display: flex;   
+    flex-direction: column;             
+    width: 20%;
+    min-width: 20rem;    
+    justify-content: space-evenly;    
+    align-items: center;       
+}
+
+.blocks {
+    border: darkred solid 2px;
+    color:;
+    margin-bottom: 1rem;
+    background-color: white;
+    border-radius: 2rem;    
+    width: 100%;
+    max-width: 18rem;
+    height: 18rem;
+}
+
+.blocks-1 {
+    border: darkred solid 2px;        
+    background-color: white;
+    border-radius: 2rem;    
+    width: 100%;
+    max-width: 18rem;
+    height: 18rem;
+}
+
+.body-article {      
+    padding: 3rem 3rem;   
+    background-color: yellowgreen;    
+    width: 20rem;
+    flex-grow: 1;
+}
+
+.body-footer {    
+    position: relative;
+    
+    background-color: green;
+    height: 200px;    
+    padding-top: 3rem;
+    padding: 3rem 3rem;
+    border: 0 0;
+}
+
+.body-footer__p {    
+    color: white;
+    font-weight: bolder;
+    font-size: 2rem;
+}

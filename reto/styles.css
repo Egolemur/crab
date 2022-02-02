@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 5% 5%;
+    border: black solid 2px;
+    height: 500px;
+    width: auto;
+    text-align: center;
+    padding: 5% 5%;
+    padding-top: 20%;
+
+}
+
+.box {
+    background-color: blueviolet;
+    display: flexbox;
+    color: chartreuse;
+    padding: 5px 5px;
+    border: crimson 2px solid;
+    margin: auto auto;
+}
+
+#parent {
+    height: 250px;
+    padding-top: 50px;
+}
+
+#child {
+    position: absolute;
+    background-color: darkgray;
+    width: 10rem;
+}
